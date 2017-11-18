@@ -52,8 +52,8 @@ best <- function(state, outcome)
 	#print(length(clean_data$rate))
 	#print(head(clean_data, 50))
 	hospitals <- best_hosp(clean_data)
-	print(hospitals)
-	#return(hospitals[1])
+	#print(hospitals)
+	return(hospitals[1])
 }
 
 best_hosp <- function(df)
